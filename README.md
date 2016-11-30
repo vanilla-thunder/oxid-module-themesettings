@@ -1,6 +1,30 @@
 [vt] Theme Settings for OXID eShop 4.9 - 4.10
 ===========
 
+example of my theme.php
+(taken from official flow 2.0 release)
+```php
+<?php
+$aTheme = [
+    'id'           => 'glow',
+    'title'        => 'Glow',
+    'description'  => 'cleaned, updated and bugfixed flow theme for oxid eshop 4.9 / 4.10',
+    'thumbnail'    => 'theme.jpg',
+    'version'      => '0.1.0',
+    'parentTheme'  => 'flow',
+    'parentVersions'=> ['1.0.0','1.0.0-beta.3'],
+    'author'       => 'Marat Bedoev',
+    'settings' => [
+       [
+          'group' => 'main',
+          'name' => 'aThemeSetting',
+          'type' => 'str',
+          'value' => 'test'
+       ]
+    ]
+];
+```
+
 # The MIT License (MIT)
 
 Copyright (c) 2016 Marat Bedoev
