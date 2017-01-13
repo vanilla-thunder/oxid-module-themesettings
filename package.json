@@ -1,0 +1,24 @@
+{
+  "name": "vt-themesettings",
+  "version": "0.0.1",
+  "description": "importing Theme Settings from theme.php for OXID eShop",
+  "author": "Marat Bedoev",
+  "company": "Marat Bedoev",
+  "email": "m@marat.ws",
+  "url" : "https://github.com/vanilla-thunder/vt-themesettings",
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vanilla-thunder/vt-themesettings.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vanilla-thunder/vt-themesettings/issues"
+  },
+  "keywords": [
+    "oxid",
+    "theme settings"
+  ],
+  "dependencies": {
+    "replace": "*"
+  }
+}
