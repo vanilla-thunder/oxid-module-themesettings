@@ -16,7 +16,7 @@ var shell = function (command) {
 // cleanup
 shell("rm -rf _module/application");
 shell("rm -rf _module/extend");
-shell("rm -rf _master/copy_this/modules/vt/vt-themesettings");
+shell("rm -rf _master/copy_this/modules/vt/themesettings");
 console.log("");
 console.log("     cleanup finished");
 
@@ -56,8 +56,8 @@ for(var x in replaces)
 process.on('exit', function (code) {
     console.log("     replacing complete");
     // copy module to master
-    shell("cp -rf _module _master/copy_this/modules/vt/vt-themesettings");
-    shell("rm -rf _master/copy_this/modules/vt/vt-themesettings/.git");
+    shell("cp -rf _module _master/copy_this/modules/vt/themesettings");
+    shell("rm -rf _master/copy_this/modules/vt/vthemesettings/.git");
     shell("cp _module/README.md _master/README.md");
     shell("cp _module/screenshot.jpg _master/screenshot.jpg");
     console.log("");
