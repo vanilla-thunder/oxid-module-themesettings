@@ -18,7 +18,7 @@
 
 $sMetadataVersion = '1.1';
 $aModule = [
-    'id'          => 'vt-themesettings',
+    'id'          => 'themesettings',
     'title'       => '[vt] theme settings',
     'description' => '___MODULE___',
     'thumbnail'   => 'oxid-vt.jpg',
@@ -27,10 +27,10 @@ $aModule = [
     'email'       => '___EMAIL___',
     'url'         => '___URL___',
     'extend'      => [
-        'oxtheme'      => 'vt/vt-themesettings/extend/oxthemevttsb',
-        'theme_config' => 'vt/vt-themesettings/extend/theme_configvttsb'
+        'oxtheme'      => 'vt/themesettings/extend/oxthemevttsb',
+        'theme_config' => 'vt/themesettings/extend/theme_configvttsb'
     ],
     'templates'   => [
-        'vt_themesettings.tpl' => 'vt/vt-themesettings/application/views/admin/vt_themesettings.tpl'
+        'vt_themesettings.tpl' => 'vt/themesettings/application/views/admin/vt_themesettings.tpl'
     ]
 ];
