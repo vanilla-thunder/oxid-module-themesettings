@@ -18,19 +18,19 @@
 
 $sMetadataVersion = '1.1';
 $aModule = [
-    'id'          => 'vt-themesettings',
+    'id'          => 'themesettings',
     'title'       => '[vt] theme settings',
     'description' => 'importing Theme Settings from theme.php for OXID eShop',
     'thumbnail'   => 'oxid-vt.jpg',
     'version'     => '0.0.2 2017-1-13',
     'author'      => 'Marat Bedoev',
     'email'       => 'm@marat.ws',
-    'url'         => 'https://github.com/vanilla-thunder/vt-themesettings',
+    'url'         => 'https://github.com/vanilla-thunder/themesettings',
     'extend'      => [
-        'oxtheme'      => 'vt/vt-themesettings/extend/oxthemevttsb',
-        'theme_config' => 'vt/vt-themesettings/extend/theme_configvttsb'
+        'oxtheme'      => 'vt/themesettings/extend/oxthemevttsb',
+        'theme_config' => 'vt/themesettings/extend/theme_configvttsb'
     ],
     'templates'   => [
-        'vt_themesettings.tpl' => 'vt/vt-themesettings/application/views/admin/vt_themesettings.tpl'
+        'vt_themesettings.tpl' => 'vt/themesettings/application/views/admin/vt_themesettings.tpl'
     ]
 ];
